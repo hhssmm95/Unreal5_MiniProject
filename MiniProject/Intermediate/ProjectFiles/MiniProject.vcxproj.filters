@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MiniProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MiniProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MiniProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\MiniProject">
+      <UniqueIdentifier>{4CCC8295-D0FD-3D89-8A25-63E08E0B40DA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MiniProject\MiniProject.cpp">
+      <Filter>Source\MiniProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MiniProject\MiniProject.h">
+      <Filter>Source\MiniProject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\MiniProjectGameModeBase.h">
+      <Filter>Source\MiniProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MiniProject\MiniProjectGameModeBase.cpp">
+      <Filter>Source\MiniProject</Filter>
+    </ClCompile>
+    <None Include="..\..\Source\MiniProject\MiniProject.Build.cs">
+      <Filter>Source\MiniProject</Filter>
+    </None>
+    <Filter Include="Source\MiniProject\Private">
+      <UniqueIdentifier>{3EA17471-D758-3007-8851-33FEE2C9EE81}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MiniProject\Private\InventoryItemData.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\PlayerInfoComponent.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\InventoryItem.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\InventoryWidget.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\DetectService.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\PlayerAnimInst.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\MonsterAnimInst.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\MonsterAIController.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\MonsterCharacter.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\PlayerCharacter.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\Bullet.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\AttackTask.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\TurnTask.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\PlayerHUDWidget.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MiniProject\Private\BossHPWidget.cpp">
+      <Filter>Source\MiniProject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MiniProject\Public">
+      <UniqueIdentifier>{EBBB17FF-014F-371E-8B73-C8F4A37762B3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MiniProject\Public\InventoryItemData.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\InventoryItem.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\InventoryWidget.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\GameInfo.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\PlayerInfoComponent.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\MonsterAIController.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\DetectService.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\PlayerAnimInst.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\MonsterAnimInst.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\Bullet.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\AttackTask.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\TurnTask.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\MonsterCharacter.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\PlayerCharacter.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\PlayerHUDWidget.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MiniProject\Public\BossHPWidget.h">
+      <Filter>Source\MiniProject\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

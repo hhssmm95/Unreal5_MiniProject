@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MiniProject",
+			"Path": "G:\\Git\\Unreal5_MiniProject\\MiniProject\\Source\\MiniProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MiniProjectEditor",
+			"Path": "G:\\Git\\Unreal5_MiniProject\\MiniProject\\Source\\MiniProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

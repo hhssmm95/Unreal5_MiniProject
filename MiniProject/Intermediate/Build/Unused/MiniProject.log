@@ -1,0 +1,56 @@
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\han\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (G:\Git\Unreal5_MiniProject).
+  Invalidating makefile for MiniProjectEditor (MiniProject.Build.cs modified)
+  Parsing headers for MiniProjectEditor
+    Running UnrealHeaderTool "G:\Git\Unreal5_MiniProject\MiniProject\MiniProject.uproject" "G:\Git\Unreal5_MiniProject\MiniProject\Intermediate\Build\Win64\MiniProjectEditor\Development\MiniProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\han\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for MiniProjectEditor in 2.8292291 seconds
+  Building MiniProjectEditor...
+  Using Visual Studio 2022 14.34.31933 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from MiniProject unity file: InventoryItemData.cpp, PlayerInfoComponent.cpp, InventoryItem.cpp, DetectService.cpp, MonsterAnimInst.cpp, MonsterAIController.cpp, Bullet.cpp, AttackTask.cpp, TurnTask.cpp, BossHPWidget.cpp, MonsterCharacter.cpp, PlayerAnimInst.cpp, InventoryWidget.cpp, PlayerHUDWidget.cpp, PlayerCharacter.cpp, MiniProject.cpp, MiniProjectGameModeBase.cpp
+  Determining max actions to execute in parallel (4 physical cores, 8 logical cores)
+    Executing up to 4 processes, one per physical core
+  Building 38 actions with 4 processes...
+  [1/38] Compile MiniProject.cpp
+  [2/38] Compile MonsterCharacter.cpp
+  [3/38] Compile PlayerInfoComponent.cpp
+  [4/38] Compile DetectService.gen.cpp
+  [5/38] Compile MonsterAIController.cpp
+  [6/38] Compile PlayerAnimInst.cpp
+G:\Git\Unreal5_MiniProject\MiniProject\Source\MiniProject\Private\PlayerAnimInst.cpp(37): warning C4996: 'UAnimInstance::CalculateDirection': Please use UKismetAnimationLibrary::CalculateDirection instead Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  [7/38] Compile Bullet.cpp
+  [8/38] Compile TurnTask.gen.cpp
+  [9/38] Compile InventoryItem.cpp
+  [10/38] Compile MiniProjectGameModeBase.gen.cpp
+  [11/38] Compile PlayerHUDWidget.gen.cpp
+  [12/38] Compile InventoryWidget.cpp
+  [13/38] Compile AttackTask.gen.cpp
+  [14/38] Compile GameInfo.gen.cpp
+  [15/38] Compile AttackTask.cpp
+  [16/38] Compile PlayerInfoComponent.gen.cpp
+  [17/38] Compile Bullet.gen.cpp
+  [18/38] Compile BossHPWidget.gen.cpp
+  [19/38] Compile MonsterCharacter.gen.cpp
+  [20/38] Compile InventoryItem.gen.cpp
+  [21/38] Compile MonsterAnimInst.cpp
+  [22/38] Compile TurnTask.cpp
+  [23/38] Compile MonsterAnimInst.gen.cpp
+  [24/38] Compile PlayerHUDWidget.cpp
+  [25/38] Compile MonsterAIController.gen.cpp
+  [26/38] Compile MiniProject.init.gen.cpp
+  [27/38] Compile MiniProjectGameModeBase.cpp
+  [28/38] Compile PlayerAnimInst.gen.cpp
+  [29/38] Compile PlayerCharacter.gen.cpp
+  [30/38] Compile InventoryItemData.cpp
+  [31/38] Compile PlayerCharacter.cpp
+  [32/38] Compile InventoryItemData.gen.cpp
+  [33/38] Compile DetectService.cpp
+  [34/38] Compile InventoryWidget.gen.cpp
+  [35/38] Compile BossHPWidget.cpp
+  [36/38] Link UnrealEditor-MiniProject.lib
+     G:\Git\Unreal5_MiniProject\MiniProject\Intermediate\Build\Win64\UnrealEditor\Development\MiniProject\UnrealEditor-MiniProject.lib 라이브러리 및 G:\Git\Unreal5_MiniProject\MiniProject\Intermediate\Build\Win64\UnrealEditor\Development\MiniProject\UnrealEditor-MiniProject.exp 개체를 생성하고 있습니다.
+  [37/38] Link UnrealEditor-MiniProject.dll
+     G:\Git\Unreal5_MiniProject\MiniProject\Intermediate\Build\Win64\UnrealEditor\Development\MiniProject\UnrealEditor-MiniProject.suppressed.lib 라이브러리 및 G:\Git\Unreal5_MiniProject\MiniProject\Intermediate\Build\Win64\UnrealEditor\Development\MiniProject\UnrealEditor-MiniProject.suppressed.exp 개체를 생성하고 있습니다.
+  [38/38] WriteMetadata MiniProjectEditor.target
+  Total time in Parallel executor: 182.74 seconds
+  Total execution time: 191.56 seconds

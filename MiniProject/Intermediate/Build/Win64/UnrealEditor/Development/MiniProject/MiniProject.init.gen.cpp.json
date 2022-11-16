@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\git\\unreal5_miniproject\\miniproject\\intermediate\\build\\win64\\unrealeditor\\inc\\miniproject\\miniproject.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\git\\unreal5_miniproject\\miniproject\\intermediate\\build\\win64\\miniprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "g:\\git\\unreal5_miniproject\\miniproject\\intermediate\\build\\win64\\unrealeditor\\development\\miniproject\\definitions.miniproject.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
